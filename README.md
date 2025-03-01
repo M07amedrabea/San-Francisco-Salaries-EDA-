@@ -14,7 +14,19 @@ This project analyzes salary data using Python and Pandas. The dataset is loaded
 Ensure you have Python installed, then install the required dependencies:
 
 ```bash
-pip install pandas numpy
+pip install pandas numpy jupyter
+```
+
+You also need to have Jupyter Notebook installed to run the `.ipynb` file. You can install it using:
+
+```bash
+pip install notebook
+```
+
+Alternatively, you can install all dependencies in one command:
+
+```bash
+pip install -r requirements.txt
 ```
 
 ## Usage
@@ -35,3 +47,4 @@ pip install pandas numpy
 ## Contributing
 
 Feel free to fork this repository and submit pull requests for improvements or additional analysis steps.
+
